@@ -24,8 +24,14 @@ done
 # Return to repository
 cd ~/devel/$FILENAME
 
+# Prompt commit message
+echo Commit Message?
+read MSG
+
 # Commit
-git commit
+git commit -a -m "$MSG"
+echo Commited
 
 # Push
 git push
+echo Pushed
