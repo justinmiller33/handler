@@ -1,6 +1,8 @@
 # handler
 
-.sh and .py files I use to handle between workstations.
+.sh and .py files I use to handle between workstations.<br>
+Windows <---> Ubuntu <br>
+Used in conjunction w/ MobaXTerm for file transfer and remote control.
 
 ### descriptions
 #### BASH
